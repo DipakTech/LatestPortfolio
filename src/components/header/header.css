@@ -38,8 +38,8 @@ header {
 /* ==========me(image) ========== */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
+  width: 27rem;
+  height: 34rem;
   position: absolute;
   left: calc(50% - 11rem);
   /* or

@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
+import { RiGithubLine, RiMessengerLine } from "react-icons/ri";
+import { BsTwitter, BsWhatsapp } from "react-icons/bs";
 
 import emailjs from "emailjs-com";
 
@@ -40,27 +40,27 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>manu@gmail.com</h5>
-            <a href="mailto:manu@gmail.com" target="_blank">
+            <h5>dipakgiri1200@gmail.com</h5>
+            <a href="mailto:dipakgiri1200@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Manohar</h5>
-            <a href="https://m.me/manohar" target="_blank">
+            <RiGithubLine className="contact__option-icon" />
+            <h4>Github</h4>
+            <h5>Dipak</h5>
+            <a href="https://github.com/dipaktech" target="_blank">
               Send a message
             </a>
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>Whatsapp</h4>
-            <h5>+987654321</h5>
+            <BsTwitter className="contact__option-icon" />
+            <h4>twitter</h4>
+            <h5>dipakgirii</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=987654321"
+              href="https://twitter.com/dipakgirii"
               target="_blank"
             >
               Send a message

@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
-import "./contact.css";
+import { ToastContainer, toast } from 'react-toastify';
 import { MdOutlineEmail } from "react-icons/md";
 import { RiGithubLine, RiMessengerLine } from "react-icons/ri";
 import { BsTwitter, BsWhatsapp } from "react-icons/bs";
+
+import 'react-toastify/dist/ReactToastify.css';
+import "./contact.css";
 
 import emailjs from "emailjs-com";
 
@@ -17,11 +20,14 @@ const Contact = () => {
         "service_zw11rto",
         "template_akhxrgr",
         form.current,
-        "Po8nwYiPRh31wRCkt"
+        "jjReSw_SNx4MEUVug"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          if (result.text === "OK") {
+            toast.success("message sent successfully")
+
+          }
         },
         (error) => {
           console.log(error.text);

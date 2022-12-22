@@ -10,6 +10,7 @@
     "react-dom": "18.0.0",
     "react-icons": "4.4.0",
     "react-scripts": "4.0.0",
+    "react-toastify": "^8.0.0",
     "swiper": "8.2.4",
     "swiper-react": "1.0.0"
   },

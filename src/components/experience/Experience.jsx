@@ -48,6 +48,13 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Tailwindcss</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -57,7 +64,21 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
-                <h4>Java</h4>
+                <h4>Javascript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Nodejs</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Mongodb</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -72,6 +93,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
                 <h4>Python</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Machine Learning</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

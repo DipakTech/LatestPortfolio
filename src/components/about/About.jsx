@@ -20,29 +20,28 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
+             <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Education</h5>
+              <small>BSC.CSIT</small>
+            </article>
+
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article>
 
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ worldwide</small>
-            </article>
+
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>20+ completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            atque architecto similique sint error accusantium tenetur! A
-            quibusdam ad quasi voluptatibus, porro, hic autem iste, dolor fuga
-            eum delectus quia.
+           I am a highly motivated individual with a strong passion for Web Development. I am constantly seeking new opportunities to learn and grow, and I am excited to bring my unique perspective and expertise to any project or challenge that comes my way.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

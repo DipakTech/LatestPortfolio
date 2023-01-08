@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
-import { ToastContainer, toast } from 'react-toastify';
 import { MdOutlineEmail } from "react-icons/md";
 import { RiGithubLine, RiMessengerLine } from "react-icons/ri";
 import { BsTwitter, BsWhatsapp } from "react-icons/bs";
-
-import 'react-toastify/dist/ReactToastify.css';
 import "./contact.css";
+
+import toast from 'react-hot-toast';
+
 
 import emailjs from "emailjs-com";
 
@@ -25,7 +25,8 @@ const Contact = () => {
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("message sent successfully")
+            console.log( "message sent successfully")
+            toast.success("Thanks for sending me a message.")
 
           }
         },
@@ -88,9 +89,17 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
+          <button type="submit" id="send_msg">
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                </svg>
+              </div>
+            </div>
+  <span>Send</span>
+</button>
         </form>
       </div>
     </section>

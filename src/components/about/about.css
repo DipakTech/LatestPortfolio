@@ -5,6 +5,7 @@
 }
 
 .about__me {
+  position:relative;
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
@@ -18,11 +19,15 @@
   place-items: center;
 }
 .about__me-image {
+  position:absolute;
+  top:1rem;
+  /* padding:2rem; */
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
 }
+
 .about__me-image:hover {
   transform: rotate(0deg);
 }
